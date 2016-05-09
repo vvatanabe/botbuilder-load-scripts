@@ -8,7 +8,7 @@
   },
   "main": "lib/main.js",
   "scripts": {
-    "test": "mocha --require espower-coffee/guess test/**/test*.coffee && istanbul report text-summary lcov",
+    "test": "mocha --require espower-coffee/guess --require coffee-coverage/register-istanbul test/**/test*.coffee && istanbul report text-summary lcov",
     "build": "npm run build-lib ; npm run build-dist",
     "watch": "npm run watch-lib & npm run watch-dist",
     "build-lib": "coffee -o lib --compile --bare src/*.coffee",

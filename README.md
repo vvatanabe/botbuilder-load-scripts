@@ -5,7 +5,7 @@ Load modularized botbuilder dialog scripts.
 
 [![Build Status](https://travis-ci.org/vvatanabe/botbuilder-load-scripts.svg?branch=master)](https://travis-ci.org/vvatanabe/botbuilder-load-scripts)
 [![Coverage Status](https://coveralls.io/repos/github/vvatanabe/botbuilder-load-scripts/badge.svg?branch=master)](https://coveralls.io/github/vvatanabe/botbuilder-load-scripts?branch=master)
-
+[![npm version](https://badge.fury.io/js/botbuilder-load-scripts.svg)](https://badge.fury.io/js/botbuilder-load-scripts)
 
 ## Usage
 
